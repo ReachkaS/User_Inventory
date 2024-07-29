@@ -48,12 +48,20 @@
       line-height: 28px;
       text-align: left; 
     }
+    @media (min-width:320px) {
+      .header-title{
+        font-size: 13px;
+      }
+    }
   }
   
   .header .toggle-sidebar-btn {
     font-size: 32px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #012970;
   }
   

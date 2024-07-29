@@ -1,5 +1,11 @@
 /* Button */
-
+.btn{
+  border-radius: 8px;
+  cursor: pointer;
+}
+img, i{
+  cursor: pointer;
+}
 .btn-createEvent{
     border: none;
     outline: none;
